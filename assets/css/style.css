@@ -9,8 +9,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'KBO-Dia-Gothic_bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "KBO-Dia-Gothic_bold";
   color: #444444;
 }
 
@@ -30,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
 }
 
 #main {
@@ -105,7 +112,7 @@ h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   text-transform: uppercase;
 }
 
@@ -157,7 +164,7 @@ h6 {
   justify-content: space-between;
   padding: 8px 16px;
   margin-left: 10px;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
   font-size: 16px;
   font-weight: 700;
   color: #fff;
