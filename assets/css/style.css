@@ -622,19 +622,19 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio
+# portfolio1
 --------------------------------------------------------------*/
-.portfolio {
+.portfolio1 {
   background: linear-gradient(rgba(243, 250, 253, 0.9), rgba(243, 250, 253, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
-.portfolio .portfolio-item {
+.portfolio1 .portfolio1-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio1 #portfolio1-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -644,7 +644,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio1 #portfolio1-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -657,23 +657,23 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio1 #portfolio1-flters li:hover,
+.portfolio1 #portfolio1-flters li.filter-active {
   color: #67b0d1;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio1 #portfolio1-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.portfolio1 .portfolio1-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio1 .portfolio1-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -686,7 +686,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio1 .portfolio1-wrap .portfolio1-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -698,7 +698,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.portfolio1 .portfolio1-wrap .portfolio1-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -707,15 +707,15 @@ section {
   width: 100%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio1 .portfolio1-wrap .portfolio1-links a:hover {
   background: rgba(103, 176, 209, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio1 .portfolio1-wrap .portfolio1-links a+a {
   border-left: 1px solid #8ec4dd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.portfolio1 .portfolio1-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -723,28 +723,28 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.portfolio1 .portfolio1-wrap:hover .portfolio1-links {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# portfolio1 Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.portfolio1-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.portfolio1-details .portfolio1-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.portfolio1-details .portfolio1-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio1-details .portfolio1-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -752,16 +752,16 @@ section {
   border: 1px solid #67b0d1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio1-details .portfolio1-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #67b0d1;
 }
 
-.portfolio-details .portfolio-info {
+.portfolio1-details .portfolio1-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.portfolio1-details .portfolio1-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -769,46 +769,46 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.portfolio1-details .portfolio1-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio1-details .portfolio1-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.portfolio1-details .portfolio1-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio1-details .portfolio1-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.portfolio1-details .portfolio1-description p {
   padding: 0;
 }
 
 
 
 /*--------------------------------------------------------------
-# Team
+# portfolio2
 --------------------------------------------------------------*/
-.team .member {
+.portfolio2 .member {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.team .member .pic {
+.portfolio2 .member .pic {
   overflow: hidden;
 }
 
-.team .member .member-info {
+.portfolio2 .member .member-info {
   position: absolute;
   top: 85%;
   left: 20px;
@@ -822,11 +822,11 @@ section {
   transition: max-height 0.5s ease-in-out; */
 }
 
-.team .member:hover .member-info {
+.portfolio2 .member:hover .member-info {
   max-height: 300px;
 }
 
-.team .member h4 {
+.portfolio2 .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -835,7 +835,7 @@ section {
   padding-bottom: 10px;
 }
 
-.team .member h4::after {
+.portfolio2 .member h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -846,23 +846,23 @@ section {
   left: calc(50% - 25px);
 }
 
-.team .member .social {
+.portfolio2 .member .social {
   margin-top: 15px;
 }
 
-.team .member .social a {
+.portfolio2 .member .social a {
   font-style: italic;
   transition: color 0.3s;
   color: blue;
 }
 
-.team .member .social a:hover {
+.portfolio2 .member .social a:hover {
   color: #7d0505;
 }
 
 
 @media (max-width: 992px) {
-  .team .member {
+  .portfolio2 .member {
     margin-bottom: 110px;
   }
 }
@@ -1054,11 +1054,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
-
-
-
-
 
 
 
