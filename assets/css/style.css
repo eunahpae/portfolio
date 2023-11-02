@@ -607,7 +607,8 @@ section {
 
 @media (max-width: 768px) {
   .about {
-    text-align: center;
+    /* text-align: center; */
+    padding: 0px 50px;
   }
 }
 
@@ -728,7 +729,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 100%;  
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -790,6 +791,10 @@ section {
 /*--------------------------------------------------------------
 # portfolio2
 --------------------------------------------------------------*/
+.portfolio2 img {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 .portfolio2 .member {
   text-align: center;
   margin-bottom: 80px;
