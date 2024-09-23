@@ -615,19 +615,19 @@ section {
 
 
 /*--------------------------------------------------------------
-# portfolio
+# project
 --------------------------------------------------------------*/
-.portfolio {
+.project {
   background: linear-gradient(rgba(243, 250, 253, 0.9), rgba(243, 250, 253, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
-.portfolio .portfolio-item {
+.project .project-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.project #project-flters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -637,7 +637,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.project #project-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -650,23 +650,23 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.project #project-flters li:hover,
+.project #project-flters li.filter-active {
   color: #67b0d1;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.project #project-flters li:last-child {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.project .project-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.project .project-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -679,7 +679,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.project .project-wrap .project-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -691,7 +691,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.project .project-wrap .project-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -700,15 +700,15 @@ section {
   width: 100%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.project .project-wrap .project-links a:hover {
   background: rgba(103, 176, 209, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.project .project-wrap .project-links a+a {
   border-left: 1px solid #8ec4dd;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.project .project-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -716,28 +716,28 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.project .project-wrap:hover .project-links {
   opacity: 1;
   bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# portfolio Details
+# project Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.project-details {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
+.project-details .project-details-slider img {
   width: 100%;  
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.project-details .project-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.project-details .project-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -745,16 +745,16 @@ section {
   border: 1px solid #67b0d1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.project-details .project-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #67b0d1;
 }
 
-.portfolio-details .portfolio-info {
+.project-details .project-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.project-details .project-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -762,50 +762,51 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-.portfolio-details .portfolio-info ul {
+.project-details .project-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.project-details .project-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.project-details .project-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.project-details .project-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.project-details .project-description p {
   padding: 0;
 }
 
 
 
 /*--------------------------------------------------------------
-# portfolio2
+# project
 --------------------------------------------------------------*/
-.portfolio2 img {
+.project1 img,.project2 img,.project3 img,.project4 img {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 500px;
 }
 
-.portfolio2 .member {
+.project2 .project {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.portfolio2 .member .pic {
+.project2 .project .pic {
   overflow: hidden;
 }
 
-.portfolio2 .member .member-info {
+.project2 .project .project-info {
   position: absolute;
   top: 85%;
   left: 20px;
@@ -819,11 +820,11 @@ section {
   transition: max-height 0.5s ease-in-out; */
 }
 
-.portfolio2 .member:hover .member-info {
+.project2 .project:hover .project-info {
   max-height: 300px;
 }
 
-.portfolio2 .member h4 {
+.project2 .project h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
@@ -832,7 +833,7 @@ section {
   padding-bottom: 10px;
 }
 
-.portfolio2 .member h4::after {
+.project2 .project h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -843,23 +844,23 @@ section {
   left: calc(50% - 25px);
 }
 
-.portfolio2 .member .social {
+.project2 .project .social {
   margin-top: 15px;
 }
 
-.portfolio2 .member .social a {
+.project2 .project .social a {
   font-style: italic;
   transition: color 0.3s;
   color: blue;
 }
 
-.portfolio2 .member .social a:hover {
+.project2 .project .social a:hover {
   color: #7d0505;
 }
 
 
 @media (max-width: 992px) {
-  .portfolio2 .member {
+  .project2 .project {
     margin-bottom: 110px;
   }
 }
